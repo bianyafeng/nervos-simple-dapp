@@ -1,0 +1,49 @@
+body {
+    padding: 20px;
+}
+
+.rotating-icon {
+    display: inline-block;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes twist-up {
+    to {
+        transform: rotateX(360deg);
+    }
+}
+.txtNumber{
+    text-align: right;
+}
+
+.appbtn {
+    padding:10px;
+    margin:10px;
+    background-color: blue;
+    color:white;
+    border-radius: 20%;
+    font-weight: bold;
+}
+.l2dAddress
+{
+    width:60%;
+    color:green;
+    word-wrap:break-word;
+    display: inline;
+    
+
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+    margin:0;
+}
+input[type="number"]{
+    -moz-appearance: textfield;
+}
