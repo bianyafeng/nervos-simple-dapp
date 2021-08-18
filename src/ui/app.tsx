@@ -306,6 +306,9 @@ export function App() {
                 Withdraw Balance
             </button>
      
+             <a target="_blank" href="https://force-bridge-test.ckbapp.dev/bridge/Ethereum/Nervos?xchain-asset=0x0000000000000000000000000000000000000000">Deposit from Force-Bridge</a>    
+            <br />
+            <br />  
             <br />
             <br />
             <hr />
